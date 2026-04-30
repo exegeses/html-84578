@@ -1,0 +1,19 @@
+body{
+    background-color: hsl(160, 50%, 96%);
+}
+header{
+    /* width: 1280px; */
+    height: 96px;
+    background-color: #B0C327;
+}
+main{
+    width: 1280px;
+    height: 824px;
+    margin: auto;  /* centrar contenedor */
+    background-color: #fff;
+}
+footer{
+    /* width: 1280px; */
+    height: 216px;
+    background-color: #5C6614;
+}
