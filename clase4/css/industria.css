@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+article{
+    padding: 16px;
+    width: 302px;
+    border-radius: 8px;
+    /* border: 1px solid black; */
+    box-shadow: 0px 4px 8px #999;
+}
+
+h2{
+    font-weight: 400;
+}
+p{
+    margin-bottom: 32px;
+}
+
+a{
+    padding: 8px 16px; 
+    text-decoration: none;
+    border: 1px solid sandybrown;
+}
+a:hover{
+    background-color: #d891ff;   
+    color: white;
+}
