@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* reseteo Selector universal */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans';
+    background-color: hsl(276, 100%, 24%);
+    color: hsl(276, 100%, 90%);
+    font-size: 24px;
+}
+#primero{
+    height: 380px;
+    background-color: hsl(276, 100%, 16%);
+    margin: 24px;
+}
+    /* descendencia: para configurar la estética de los elementos hijos */
+    #primero article{
+        width: 96px;
+        height: 96px;
+        background-color: hsl(276, 100%, 8%);
+    }
+
+#segundo{
+    height: 256px;
+    background-color: hsl(70, 100%, 16%);
+}
+
+    #segundo article{
+        width: 96px;
+        height: 96px;
+        background-color: hsl(70, 100%, 8%);
+    }
+        #dos{
+            /* width: 56px !important; */
+            padding: 20px;
+        }
