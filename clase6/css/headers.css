@@ -1,0 +1,64 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+#primero{
+    width: 1024px;
+    height: 104px;
+    margin: 80px auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    #primero img{
+        width: 80px;
+    }
+    #primero nav a{
+        color: hsl(30, 80%, 50%);
+        padding: 12px;
+    }
+
+/* segundo */
+#segundo{
+    width: 1024px;
+    height: 104px;
+    margin: 80px auto ;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    #segundo nav a{
+        color:  hsl(8, 100%, 66%);
+        padding: 12px;
+    }
+
+#suscribete{
+    background-color: hsl(8, 100%, 66%);
+    padding: 8px 16px;
+    border-radius: 16px;
+    color: white;
+}
+
+
+
+/* secciones */
+section{
+    height: 560px;
+}
+#aplicaciones{
+    background-color: #aaaaaa;
+}
+#recursos{
+    background-color: #727272;
+}
+#contacto{
+    background-color: #444444;
+}
