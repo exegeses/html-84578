@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #656565;
+    height: 100vh; /* 100% viewport height */
+    display: flex;
+}
+nav{
+    width: 200px;
+    padding: 24px 0px;
+    background-color: #ff8181;
+}
+    nav a{
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        display: block; 
+        padding: 12px 24px;
+        transition: 500ms;
+    }
+    nav a:hover{
+        background-color: white;
+        color: hsl(0, 100%, 50%);
+    }
