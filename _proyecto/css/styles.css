@@ -82,3 +82,86 @@ header{
         font-weight: 400;
         margin-bottom: 16px;
     }
+
+    #casos div{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #casos div article{
+        width: 302px;
+        padding: 16px;
+        box-shadow: 0px 1px 8px hsl(0, 0%, 60%)
+    }
+        #casos div article h3{
+            font-size: 24px;
+            font-weight: 400;
+            margin: 16px 0px;
+        }
+        #casos div article p{
+            font-size: 16px;
+        }
+        #casos div article a{
+            padding: 8px 20px;
+            margin-top: 24px;
+            text-decoration: none;
+            color: hsl(236, 78%, 68%);
+            font-size: 16px;
+            border-radius: 8px;
+            display: block;
+            transition: .5s;
+        }
+        #casos div article a:hover{
+            color: white;
+            background-color: hsl(236, 78%, 68%);
+        }
+/*### sección artículos ###*/
+#articulos{
+    width: 1280px;
+    margin: 16px auto;
+    padding: 16px 0px;
+    font-size: 20px;
+}
+    #articulos h2{
+        font-size: 32px;
+        font-weight: 400;
+        margin-bottom: 16px;
+    }
+    #articulos div{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+        #articulos div article{
+            width: 410px;
+            padding-bottom: 16px;
+            border-radius: 8px;
+            box-shadow: 0px 1px 8px hsl(0, 0%, 60%);
+        }
+            #articulos div article img{
+                border-radius: 8px 8px 0px 0px;     
+            }
+            #articulos div article h3{
+                font-size: 24px;
+                font-weight: 400;
+                margin: 16px 24px;
+            }
+            #articulos div article p{
+                font-size: 16px;
+                margin: 0px 24px;
+            }
+            #articulos div article a{
+                margin: 24px 24px 0px 24px;
+                padding: 8px 20px;
+                display: block;
+                font-size: 16px;
+                text-decoration: none;
+                color: hsl(236, 78%, 68%);
+                transition: 500ms;
+            }
+            #articulos div article a:hover{
+                color: white;
+                background-color: hsl(236, 78%, 68%);
+                border-radius: 8px;
+            }
