@@ -165,3 +165,80 @@ header{
                 background-color: hsl(236, 78%, 68%);
                 border-radius: 8px;
             }
+
+
+/*##### sección contacto ##### */            
+#contacto{
+    background-color: hsl(214, 100%, 5%);
+}
+
+    #contacto div{
+        width: 1280px;
+        height: 720px;
+        margin: auto;
+        padding-top: 40px;
+        background-image: url(../imgs/bg-contacto.png);
+    }
+        #contacto div form{
+            width: 520px;
+            padding: 24px 32px;
+            border: 1px solid hsl(236, 78%, 68%);
+            border-radius: 16px;
+
+            color: white;
+        }
+            #contacto div h1{
+                font-size: 32px;
+                font-weight: 400;
+                margin-bottom: 16px;
+            }
+            #contacto div form input{
+                width: 100%;
+                margin-top: 24px;
+                padding: 12px 20px;
+                background-color: hsl(214, 100%, 5%);
+                border: 1px solid hsl(236, 78%, 68%);
+                border-radius: 8px;
+                font-size: 20px;
+                color: white;
+            }
+            #contacto div form textarea{
+                width: 100%;
+                height: 196px;
+                margin-top: 24px;
+                padding: 12px 20px;
+                background-color: hsl(214, 100%, 5%);
+                border: 1px solid hsl(236, 78%, 68%);
+                border-radius: 8px;
+                font-size: 20px;
+                color: white;
+                resize: none;
+            }
+            #contacto div form input::placeholder,
+            #contacto div form textarea::placeholder{
+                color: hsl(236, 78%, 68%);
+            }
+
+
+            #contacto div form select{
+                width: 100%;
+                margin-top: 24px;
+                padding: 12px 20px;
+                background-color: hsl(214, 100%, 5%);
+                border: 1px solid hsl(236, 78%, 68%);
+                border-radius: 8px;
+                font-size: 20px;
+                color: hsl(236, 78%, 68%);
+            }
+
+
+            #contacto div form button{
+                width: 100%;
+                margin-top: 24px;
+                padding: 10px 20px;
+                background-color: hsl(236, 78%, 68%);
+                border: none;
+                border-radius: 8px;
+                font-size: 20px;
+                color: white;
+            }
